@@ -1,0 +1,170 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100vw;
+    height: 150px;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+header h1{
+    font-size: 30px;
+    color: yellowgreen;
+}
+main{
+    width: 100vw;
+    padding-top: 30px;
+    height: auto;
+    background-color: chocolate;
+
+}
+main .formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .formulario h2{
+    background-color: violet;
+    margin-bottom: 30px;
+
+}
+main .formulario form{
+    display: flex;
+    flex-direction: column;
+}
+main .formulario form label{
+    width: 400px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    align-items: center;
+    margin: 10px 0px;
+    font-weight: bolder;
+}
+main .formulario form label input{
+    width: 250px;
+    height: 30px;
+    border: none;
+    padding: 0 5px;
+    border-radius: 10px;
+    background-color:rgba(154, 219, 208, 0.89)
+}
+main .formulario form div{
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main .formulario form div button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #eee;
+}
+main .formulario form #btnGuardar{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: darkgreen;
+    cursor: pointer;
+}
+main .formulario form #btnCancelar{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: darkred;
+    cursor: pointer;
+}
+main .lista{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main .lista .listaAmigos{
+    display: flex;
+    flex-direction: column;
+}
+main .lista .listaAmigos div{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+main .lista .listaAmigos div p{
+    font-weight: bold;
+    color: whitesmoke;
+}
+main .lista .listaAmigos div button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkcyan;
+    color: azure;
+    cursor: pointer;
+}
+main .lista .listaAmigos div button.eliminarElemento{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: azure;
+    cursor: pointer;
+}
+.detallesAmigo{
+    position: fixed;
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(55, 0, 255);
+    top: calc(50vh - 200px);
+    left: calc(50vw - 200px);
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.detallesAmigo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.detallesAmigo h3{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.detallesAmigo p span{
+    font-weight: bold;
+    font-style: italic;
+}
+.detallesAmigo button{
+    width: 95px;
+    height: 45px;
+    font-size: 16px;
+    border: none;
+    background-color: darkred;
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 18px;
+}
+.oculto{
+    display: none;
+}
